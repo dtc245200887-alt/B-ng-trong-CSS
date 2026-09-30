@@ -1,0 +1,59 @@
+/* Đường viền và gộp đường viền */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+/* Đường viền cho bảng và các ô */
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+/* Chiều cao hàng tiêu đề */
+th {
+    height: 50px;
+}
+
+/* Căn trái tiêu đề */
+th {
+    text-align: left;
+}
+
+/* Căn giữa theo chiều dọc */
+th,
+td {
+    vertical-align: middle;
+}
+
+/* Khoảng cách bên trong ô */
+th,
+td {
+    padding: 15px;
+}
+
+/* Màu nền và màu chữ tiêu đề */
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Màu nền và màu chữ dữ liệu */
+td {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Hiệu ứng khi di chuột */
+tr:hover td {
+    background-color: #ddd;
+}
+
+/* Tiêu đề trang */
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
